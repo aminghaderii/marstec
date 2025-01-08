@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مارس بیگ اینتر - استرس را بشکنید، تمرکز کنید!</title>
+    <!-- Add Favicon -->
+    <link rel="icon" href="logo.png" type="image/png">
+    <style>
+        body {
+            font-family: 'Vazirmatn', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #003366, #00aaff);
+            color: #fff;
+            text-align: center;
+            direction: rtl;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .banner {
+            background: #ffefef;
+            color: #003366;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+        }
+
+        .banner h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #ff5733;
+        }
+
+        .banner h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #007acc;
+        }
+
+        .features {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .features ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .features ul li {
+            margin: 10px 0;
+            font-size: 1rem;
+            color: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .features ul li img {
+            width: 20px;
+            height: 20px;
+            margin-left: 10px;
+        }
+
+        .cta {
+            margin-top: 20px;
+        }
+
+        .cta a {
+            text-decoration: none;
+            padding: 10px 20px;
+            background: #ff5733;
+            color: #fff;
+            border-radius: 5px;
+            font-size: 1.2rem;
+        }
+
+        .cta a:hover {
+            background: #c13c24;
+        }
+
+        .social {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .social a img {
+            width: 40px;
+            height: auto;
+        }
+
+        .downloads {
+            margin-top: 20px;
+        }
+
+        .downloads a {
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 15px;
+            background: #007acc;
+            color: #fff;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .downloads a:hover {
+            background: #005f99;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #ccc;
+        }
+
+        footer a {
+            color: #ff5733;
+        }
+
+        .lang-select {
+            margin: 20px;
+        }
+
+        .lang-select button {
+            margin: 0 10px;
+            padding: 10px 15px;
+            background: #ff5733;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .lang-select button:hover {
+            background: #c13c24;
+        }
+
+        .logo {
+            margin: 20px 0;
+        }
+
+        .logo img {
+            width: 150px;
+            height: auto;
+        }
+
+        .contact {
+            margin-top: 30px;
+        }
+
+        .contact a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2rem;
+            background: #ff5733;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .contact a img {
+            width: 25px;
+            height: auto;
+            margin-right: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .contact a:hover {
+            background: #c13c24;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+            transform: scale(1.05);
+        }
+
+        .contact a:hover img {
+            transform: scale(1.2);
+        }
+
+        [lang="en"] {
+            font-family: Arial, sans-serif;
+            direction: ltr;
+            text-align: center;
+        }
+    </style>
+    <script>
+        function switchLanguage(lang) {
+            document.documentElement.lang = lang;
+            const contentFa = document.getElementById("content-fa");
+            const contentEn = document.getElementById("content-en");
+            if (lang === "fa") {
+                contentFa.style.display = "block";
+                contentEn.style.display = "none";
+            } else {
+                contentFa.style.display = "none";
+                contentEn.style.display = "block";
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="logo.png" alt="مارس بیگ اینتر">
+        </div>
+
+        <div class="lang-select">
+            <button onclick="switchLanguage('fa')">فارسی</button>
+            <button onclick="switchLanguage('en')">English</button>
+        </div>
+
+        <div id="content-fa" style="display: block;">
+            <div class="banner">
+                <h1>مارس بیگ اینتر</h1>
+                <h2>استرس را بشکنید، تمرکز کنید!</h2>
+                <img src="bigenter.jpg" alt="مارس بیگ اینتر" style="width: 100%; border-radius: 10px;">
+
+                <div class="features">
+                    <h3>چرا مارس بیگ اینتر را انتخاب کنید؟</h3>
+                    <ul>
+                        <li><img src="check-icon.png" alt="چک"> <strong>کاهش استرس:</strong> با فشار دادن استرس خود را فوراً تخلیه کنید.</li>
+                        <li><img src="check-icon.png" alt="چک"> <strong>شخصی‌سازی:</strong> تنظیمات لرزش و زمان استراحت قابل تنظیم.</li>
+                        <li><img src="check-icon.png" alt="چک"> <strong>یکپارچه‌سازی موسیقی:</strong> هنگام هر فشار آهنگ‌ها را پخش کنید.</li>
+                        <li><img src="check-icon.png" alt="چک"> <strong>سازگاری:</strong> قابل استفاده با ویندوز، لینوکس و مک.</li>
+                        <li><img src="check-icon.png" alt="چک"> <strong>بادوام و راحت:</strong> ساخته شده از مواد نرم و با کیفیت بالا.</li>
+                    </ul>
+                </div>
+
+                <div class="cta">
+                    <a href="https://mars.id.ir">همین حالا سفارش دهید</a>
+                </div>
+
+                <div class="downloads">
+                    <h3>دانلود اپلیکیشن مارس بیگ اینتر:</h3>
+                    <a href="https://mars.id.ir/download/windows">ویندوز</a>
+                    <a href="https://mars.id.ir/download/macos">مک او اس</a>
+                    <a href="https://mars.id.ir/download/linux">لینوکس</a>
+                </div>
+
+                <div class="social">
+                    <a href="https://www.instagram.com/marsbigenter" title="اینستاگرام">
+                        <img src="instagram-icon.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.digikala.com/marsbigenter" title="دیجی‌کالا">
+                        <img src="digikala-icon.png" alt="Digikala">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact">
+            <a href="tel:+123456789">
+                <img src="phone-icon.png" alt="Call"> +123 456 789
+            </a>
+        </div>
+
+    </div>
+    
+    <footer>
+        &copy; 2024 Mars Big Enter | <a href="https://mars.id.ir">mars.id.ir</a>
+    </footer>
+</body>
+</html>
